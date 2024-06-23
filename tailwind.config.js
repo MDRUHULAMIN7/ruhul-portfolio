@@ -24,7 +24,8 @@ module.exports = {
       colors: {
         primary: '#131424',
         secondary: '#393A47',
-        accent: '#F13024',
+        // accent: '#F13024',
+        accent: '#FF1493',
     
       },
       light: {
@@ -33,7 +34,7 @@ module.exports = {
         accent: '#3B82F6',
       },
       backgroundImage: {
-        explosion: 'url("/bg3.jpg")',
+        explosion: 'url("/8.jpg")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',

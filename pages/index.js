@@ -4,7 +4,7 @@ import ProjectsBtn from "../components/ProjectsBtn";
 import { motion} from "framer-motion";
 import {fadeIn} from '../variants'
 
-import banner from "../public/bg.jpg"
+
 
 
 const Home = () => {

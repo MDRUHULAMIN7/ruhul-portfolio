@@ -13,21 +13,21 @@ const testimonialData = [
     name: 'Anne Smith',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Creative genius; our website's design and performance have never been better.",
   },
   {
     image: '/t-avt-2.png',
     name: 'Jane Doe',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Remarkable web developer; delivered a stunning, intuitive site beyond our vision.",
   },
   {
     image: '/t-avt-3.png',
     name: 'Jhon Doe',
     position: 'Customer',
     message:
-      'Very nice work!',
+      "Transformative web developer; engineered a digital masterpiece with precision and flair.",
   },
 ];
 

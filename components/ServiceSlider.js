@@ -22,22 +22,22 @@ const serviceData = [
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Our website design service creates visually stunning, user-friendly, and responsive sites.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Our web development service delivers robust, efficient, and scalable solutions for diverse digital needs.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Our copywriting service crafts engaging, persuasive, and SEO-optimized content for your brand.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Our SEO service enhances your online visibility, driving organic traffic and boosting rankings. ',
   },
 ];
 

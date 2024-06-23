@@ -49,18 +49,18 @@ const aboutData = [
     info: [
      
       {
-        title: ' Complet ',
-        stage: '2024',
+        title: ' Complet Web Development  ',
+        stage: '2024-present',
       },
      
     ],
   },
   {
-    title: 'credentials',
+    title: 'Education',
     info: [
      
       {
-        title: 'Computer',
+        title: 'Computer Science Technology',
         stage: '2023 - present',
       },
       
