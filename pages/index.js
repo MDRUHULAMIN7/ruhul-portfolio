@@ -56,7 +56,7 @@ const Home = () => {
         variants={fadeIn('up',0.5)}
         initial="hidden"
         animate="show"
-       className="w-full h-full max-w-[737px] max-h-[1978px] absolute bottom-0 lg:bottom-16 lg:right-[8%]">
+       className="w-full h-full max-w-[737px] max-h-[1978px] absolute bottom-0 lg:bottom-0 lg:right-[8%]">
       <Avatar></Avatar>
       </motion.div>
       
