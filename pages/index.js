@@ -11,7 +11,7 @@ const Home = () => {
 
 
 
-  return <div className="bg-primary/60 h-full">
+  return <div className="bg-primary/60 h-full ">
     <div className=" w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
       <div className="text-center flex flex-col justify-center xl:pl-40 xl:text-left h-full container max-auto">
         <motion.h1
@@ -46,7 +46,7 @@ const Home = () => {
 
     <div className=" w-[1200px] h-full absolute right-0 bottom-0">
       <div className=" bg-none xl:bg-explosion  xl:bg-cover xl:bg-right h-full w-full xl:bg-no-repeat
-      absolute mix-blend-color-dodge translate-z-0" >
+      absolute mix-blend-color-dodge  translate-z-0" >
 
       </div>
       <div>
@@ -56,7 +56,7 @@ const Home = () => {
         variants={fadeIn('up',0.5)}
         initial="hidden"
         animate="show"
-       className="w-full h-full max-w-[737px] max-h-[1978px] absolute bottom-0 lg:bottom-0 lg:right-[8%]">
+       className="w-full absolute right-[8%] max-w-[900px] bottom-0">
       <Avatar></Avatar>
       </motion.div>
       
