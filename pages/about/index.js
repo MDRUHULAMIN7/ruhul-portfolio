@@ -49,8 +49,14 @@ const aboutData = [
     info: [
      
       {
-        title: ' Complet Web Development  ',
+        title1: `Course
+                 `,
+        title: `Complet Web Development 
+                 `,
+        title2: ` 
+                  -with Programing-hero`,
         stage: '2024-present',
+        certifecate:"",
       },
      
     ],
@@ -60,8 +66,11 @@ const aboutData = [
     info: [
      
       {
-        title: 'Computer Science Technology',
-        stage: '2023 - present',
+        title: `Computer Science Technology
+                    `,
+        title2: ` Rajshahi Polytechnic Institute
+                    `,
+               stage: '2023 - present',
       },
       
     ],
@@ -75,7 +84,7 @@ import CountUp from "react-countup";
 const About = () => {
   const [index,setIndex]= useState(0)
   console.log(index);
-  return <div className="h-full bg-primary/30 py-12 xl:py-4 text-center xl:text-left">
+  return <div className="h-full bg-primary/30 py-0 xl:py-4 text-center xl:text-left">
     <Circles></Circles>
     <motion.div className="hidden xl:flex absolute bottom-0 -left-[170px] "
      variants={fadeIn('right',0.3)}
@@ -98,7 +107,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="exit"
-        className="max-w-[500px] text-md xl:text-lg mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 " >
+        className="max-w-[500px] text-md hidden sm:flex xl:text-lg mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 " >
         Iam a passionate web developer with expertise in HTML, CSS, JavaScript, and modern frameworks like React . I love creating user-friendly and responsive websites. With a keen eye for design and a dedication to seamless functionality. Let’s build something great together!
         </motion.p>
         <motion.div
@@ -160,9 +169,12 @@ const About = () => {
         <div className="mt-14  py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-0 items-center xl:items-start ">
           {
             aboutData[index].info.map((items,itemsIndex)=>{
-              return <div className="flex-1 flex flex-col text-white/60 md:flex-row
+              return <div className="flex-1 flex flex-col text-white/60 
                max-w-max gap-x-2 items-center" key={itemsIndex}>
-        <div className="font-light mb-2 md:mb-0"> {items.title}</div>
+        <div className="font-light mb-2 md:mb-0"> {items?.title1} </div>
+        <div className="font-light mb-2 md:mb-0"> {items?.title} </div>
+        <div className="font-light mb-2 md:mb-0">  {items?.title2}</div>
+     
         <div className="hidden md:flex">-</div>
         <div>{items. stage}</div>
         <div className=" flex gap-x-4 ">

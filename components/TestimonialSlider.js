@@ -37,7 +37,7 @@ const TestimonialSlider = () => {
       navigation={true}
     
       modules={[Navigation, Pagination]}
-      className="h-[400px]"
+      className="sm:h-[400px] h-[280px] "
     >
       {testimonialData.map((person, index) => (
         <SwiperSlide key={index}>
@@ -55,7 +55,7 @@ const TestimonialSlider = () => {
               <div className="mb-4">
                 <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
               </div>
-              <div className="xl:text-lg text-center md:text-left">
+              <div className="xl:text-lg  text-center md:text-left">
                 {person.message}
               </div>
             </div>

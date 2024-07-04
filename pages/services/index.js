@@ -24,7 +24,7 @@ const Services = () => {
  initial="hidden"
  animate="show"
  exit="exit"
- className="mb-4 text-sm xl:text-lg  max-w-[400px]  ">Specializing in  web development, I offer end-to-end solutions from database design to front-end interfaces. Whether its building robust APIs or crafting pixel-perfect UIs, I am dedicated to delivering comprehensive and scalable web solutions that meet your business goals. Lets turn your vision into reality.</motion.p>
+ className="mb-4 text-sm xl:text-lg sm:flex hidden  max-w-[400px]  ">Specializing in  web development, I offer end-to-end solutions from database design to front-end interfaces. Whether its building robust APIs or crafting pixel-perfect UIs, I am dedicated to delivering comprehensive and scalable web solutions that meet your business goals. Lets turn your vision into reality.</motion.p>
 
 </div>
      </div>

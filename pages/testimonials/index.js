@@ -12,7 +12,7 @@ const Testimonials = () => {
       exit="hidden"
 
       
-      className="h2 mb-8 xl:mb-0">Clients Reviews <span className="text-accent">.</span></motion.h2>
+      className="h2 sm:mb-8 mb-0 xl:mb-0">Clients Reviews <span className="text-accent">.</span></motion.h2>
       <motion.div
           variants={fadeIn('up',0.4)}
           initial="hidden"

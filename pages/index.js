@@ -28,7 +28,7 @@ const Home = () => {
           initial='hidden'
           animate='show'
           exit='exit'
-        className="max-w-xm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Creative and Professional Web Developer: Crafting Interactive and Responsive Websites for an Exceptional User Experience</motion.p>
+        className="max-w-xm xl:max-w-xl mx-auto xl:mx-0 mb-0 sm:mb-10 xl:mb-16">Creative and Professional Web Developer: Crafting Interactive and Responsive Websites for an Exceptional User Experience</motion.p>
         <div className=" flex justify-center xl:hidden relative">
           <ProjectsBtn></ProjectsBtn>
         </div>
