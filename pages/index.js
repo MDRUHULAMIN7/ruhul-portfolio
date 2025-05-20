@@ -1,67 +1,102 @@
 import Avatar from "../components/Avatar";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import { motion} from "framer-motion";
-import {fadeIn} from '../variants'
-
-
-
+import { motion } from "framer-motion";
+import { fadeIn } from "../variants";
 
 const Home = () => {
+  return (
+    <div className="bg-primary/60 h-screen w-full overflow-hidden">
+     
+      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+        <div className="container   h-full flex flex-col md:justify-center md:pt-28  lg:pt-0 items-center xl:items-start  text-center md:text-left xl:mx-auto  ">
+        <div className="md:pr-56 sm:pl-20 md:pl-0 pt-32  md:pt-0 ">
+           
+          <motion.h1
+        
+            className="text-[28px]  sm:text-[36px] md:text-[36px] lg:text=[52px] xl:text-[60px] font-semibold leading-tight md:leading-[1.3] mb-4 sm:mb-6 pt-12 sm:pt-0"
+            variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            animate="show"
+            exit="exit"
+          >
+            Transforming Ideas <br /> into{" "}
+            <span className="text-accent">Developed Ideas</span>
+          </motion.h1>
 
+        
+          <motion.p
+            className="text-base sm:text-sm md:text-lg  max-w-sm sm:max-w-sm lg:max-w-lg xl:max-w-xl mb-2 sm:mb-4 xl:mb-16 mx-auto lg:mx-0"
+            variants={fadeIn("down", 0.3)}
+            initial="hidden"
+            animate="show"
+            exit="exit"
+          >
+            Creative and Professional Web Developer Crafting Interactive and
+            Responsive Websites for an Exceptional User Experience
+          </motion.p>
 
-
-  return <div className="bg-primary/60 h-full ">
-    <div className=" w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-      <div className="text-center flex flex-col justify-center xl:pl-40 xl:text-left h-full container max-auto">
-        <motion.h1
-           className="h1"
-           variants={fadeIn('down',0.2)}
-           initial='hidden'
-           animate='show'
-           exit='exit'>
-          Transforming Ideas <br></br> Into{' '}
-          <span className="text-accent">Developed Ideas</span>
-        </motion.h1>
-        <motion.p 
-          variants={fadeIn('down',0.3)}
-          initial='hidden'
-          animate='show'
-          exit='exit'
-        className="max-w-xm xl:max-w-xl mx-auto xl:mx-0 mb-0 sm:mb-10 xl:mb-16">Creative and Professional Web Developer: Crafting Interactive and Responsive Websites for an Exceptional User Experience</motion.p>
-        <div className=" flex justify-center xl:hidden relative">
-          <ProjectsBtn></ProjectsBtn>
+          <div className="flex  pr-96 lg:mr-0 justify-start">
+            <ProjectsBtn />
+          </div>
         </div>
-        <motion.div 
-         className="hidden xl:flex"
-         variants={fadeIn('down',0.4)}
-         initial='hidden'
-         animate='show'
-         exit='exit' >
-        <ProjectsBtn></ProjectsBtn>
-        </motion.div>
+
+         
+
+          
+        </div>
+      </div>
+
+      <div className="absolute w-full h-full bottom-0 right-0 pointer-events-none">
   
-      </div>
-    </div>
+        <div className="hidden xl:block absolute w-full h-full bg-explosion bg-no-repeat bg-right bg-cover mix-blend-color-dodge"></div>
 
-    <div className=" w-[1200px] h-full absolute right-0 bottom-0">
-      <div className=" bg-none xl:bg-explosion  xl:bg-cover xl:bg-right h-full w-full xl:bg-no-repeat
-      absolute mix-blend-color-dodge  translate-z-0" >
+       
+        <div>
+          <ParticlesContainer />
+        </div>
 
-      </div>
-      <div>
-        <ParticlesContainer></ParticlesContainer>
-      </div>
-      <motion.div
-        variants={fadeIn('up',0.5)}
-        initial="hidden"
-        animate="show"
-       className="w-full absolute right-[8%] max-w-[900px] bottom-0">
-      <Avatar></Avatar>
-      </motion.div>
       
+        <motion.div
+          variants={fadeIn("up", 0.5)}
+          initial="hidden"
+          animate="show"
+          className="
+            absolute 
+            bottom-20 
+            xl:bottom-0
+            w-full 
+            lg:ml-10
+            md:ml-28
+            xl:ml-10
+            flex 
+            justify-center 
+            md:justify-end 
+            px-14 
+            sm:px-8 
+            xl:px-0 
+            xl:right-[2%]
+            
+          "
+        >
+          <div
+            className="
+            xs:w-[540px]
+            sm:w-[580px] 
+            md:w-[600px] 
+            lg:w-[700px]
+            xl:w-[900px] 
+            2xl:w-[1000px] 
+            
+            transition-all
+          "
+          >
+            <Avatar />
+          </div>
+        </motion.div>
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Home;
