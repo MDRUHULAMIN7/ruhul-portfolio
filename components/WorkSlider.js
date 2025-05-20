@@ -5,17 +5,19 @@ const workSlides = {
       images: [
         {
           title: "title",
+          path: "/thumb-7.png",
+          live:'https://devdive1.netlify.app/',
+          github:'https://github.com/MDRUHULAMIN7/DevDive-Client-Side',
+
+        },
+        {
+          title: "title",
           path: "/thumb1.png",
           live:'https://soultie.web.app/',
           github:'https://github.com/MDRUHULAMIN7/SoulTie-Client',
 
         },
-        {
-          title: "title",
-          path: "/thumb21.jpg",
-          live:'https://foodnet-fb12c.web.app/',
-          github:'https://github.com/MDRUHULAMIN7/FoodNeT-client',
-        },
+       
      
       ],
     },
@@ -23,16 +25,17 @@ const workSlides = {
       images: [
         {
           title: "title",
+          path: "/thumb21.jpg",
+          live:'https://foodnet-fb12c.web.app/',
+          github:'https://github.com/MDRUHULAMIN7/FoodNeT-client',
+        },
+        {
+          title: "title",
           path: "/thumb5.jpg",
           live:'https://assignment-10-client-ec401.web.app/',
           github:'https://github.com/MDRUHULAMIN7/ExploreSouthEastAsia?tab=readme-ov-file',
         },
-        {
-          title: "title",
-          path: "/thumb-6.jpg",
-          live:'https://mdruhulamin7.github.io/assignment-5/',
-          github:'https://github.com/MDRUHULAMIN7/assignment-5',
-        },
+     
      
       ],
     },
