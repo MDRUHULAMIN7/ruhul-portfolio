@@ -11,7 +11,7 @@ const Header = () => {
         <h1 className="text-2xl font-mono font-semibold text-accent">Ruhul<span className="text-2xl font-light text-white">Amin</span>.</h1>
       
         </Link>
-         <div className="flex items-center gap-x-5 text-xl">
+         <div className="flex items-center md:gap-x-5 gap-x-2  text-xl">
           <Link className="hover:text-accent transition-all duration-300" href={'https://www.linkedin.com/in/ruhul7/'}> <RiLinkedinLine></RiLinkedinLine></Link>
     <Link className="hover:text-accent transition-all duration-300" href={'https://github.com/MDRUHULAMIN7'}> <RiGithubLine></RiGithubLine></Link>
     <Link className="hover:text-accent transition-all duration-300" href={'https://www.facebook.com/profile.php?id=100075508398981'}> <RiFacebookLine></RiFacebookLine></Link>

@@ -4,7 +4,7 @@ const Avatar = () => {
   return <div className="   " >
     <Image src={'/mahafuj.png'}
             width={700}
-            height={600}
+            height={800}
             priority
            alt=""
            className="translate-z-0 w-full h-full"></Image>
