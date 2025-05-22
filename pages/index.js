@@ -56,7 +56,7 @@ const Home = () => {
         variants={fadeIn("up", 0.5)}
         initial="hidden"
         animate="show"
-        className="absolute bottom-0 w-full flex justify-center md:justify-end items-end px-6 sm:px-12 xl:pr-24"
+        className="absolute bottom-10 sm:bottom-0 w-full flex justify-center md:justify-end items-end px-6 sm:px-12 xl:pr-24"
       >
         <div className="w-[370px]  md:w-[390px]  lg:w-[500px] xl:w-[600px] 2xl:w-[750px] transition-all">
           <Avatar />
