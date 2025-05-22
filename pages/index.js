@@ -10,11 +10,11 @@ const Home = () => {
      
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="container   h-full flex flex-col md:justify-center md:pt-28  lg:pt-0 items-center xl:items-start  text-center md:text-left xl:mx-auto  ">
-        <div className="md:pr-56 sm:pl-20 md:pl-0 pt-32  md:pt-0 ">
+        <div className="md:pr-56 sm:pl-20 md:pl-0 pt-12  md:pt-0 ">
            
           <motion.h1
         
-            className="text-[28px]  sm:text-[36px] md:text-[36px] lg:text=[52px] xl:text-[60px] font-semibold leading-tight md:leading-[1.3] mb-4 sm:mb-6 pt-12 sm:pt-0"
+            className="text-[20px]  sm:text-[28px] md:text-[36px] lg:text=[52px] xl:text-[60px] font-semibold leading-tight md:leading-[1.3] mb-4 sm:mb-6 pt-12 sm:pt-0"
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
@@ -26,7 +26,7 @@ const Home = () => {
 
         
           <motion.p
-            className="text-base sm:text-sm md:text-lg  max-w-sm sm:max-w-sm lg:max-w-lg xl:max-w-xl mb-2 sm:mb-4 xl:mb-16 mx-auto lg:mx-0"
+            className="text-base sm:text-sm md:text-lg  max-w-[320px] sm:max-w-xsm lg:max-w-lg xl:max-w-xl mb-2 sm:mb-4 xl:mb-16 mx-auto lg:mx-0"
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             animate="show"
@@ -81,11 +81,12 @@ const Home = () => {
         >
           <div
             className="
-            xs:w-[540px]
-            sm:w-[580px] 
-            md:w-[600px] 
-            lg:w-[700px]
-            xl:w-[900px] 
+            xs:w-[220px]
+           sm:w-[220px]
+            md:w-[350px] 
+            lg:w-[500px]
+            xl:w-[600px] 
+            xl:mr-28
             2xl:w-[1000px] 
             
             transition-all

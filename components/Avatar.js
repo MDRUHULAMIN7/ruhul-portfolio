@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Avatar = () => {
   return <div className="   " >
-    <Image src={'/ruhulhd 1.png'}
+    <Image src={'/mahafuj.png'}
             width={700}
             height={600}
             priority
