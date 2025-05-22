@@ -9,7 +9,7 @@ const Home = () => {
     <div className="bg-primary/60 min-h-screen w-full overflow-hidden relative">
       {/* Gradient background */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="container h-full flex flex-col justify-center items-center md:items-start text-center md:text-left px-4 md:px-12 lg:px-24 xl:px-32 pt-28 md:pt-32">
+        <div className="container h-full flex flex-col justify-center items-center md:items-start text-center md:text-left px-4 md:px-12 lg:px-24 xl:px-32 pt-32">
           {/* Text and button content */}
           <motion.h1
             className="text-[26px] sm:text-[32px] md:text-[44px] lg:text-[52px] xl:text-[60px] font-semibold leading-tight mb-4 sm:mb-6"
@@ -56,9 +56,9 @@ const Home = () => {
         variants={fadeIn("up", 0.5)}
         initial="hidden"
         animate="show"
-        className="absolute bottom-[85px] sm:bottom-20 xl:bottom-0 w-full flex justify-center md:justify-end items-end px-6 sm:px-12 xl:pr-24"
+        className="absolute bottom-0 w-full flex justify-center md:justify-end items-end px-6 sm:px-12 xl:pr-24"
       >
-        <div className="w-[320px]  md:w-[350px]  lg:w-[500px] xl:w-[600px] 2xl:w-[750px] transition-all">
+        <div className="w-[370px]  md:w-[390px]  lg:w-[500px] xl:w-[600px] 2xl:w-[750px] transition-all">
           <Avatar />
         </div>
       </motion.div>
