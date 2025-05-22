@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="bg-primary/60 min-h-screen w-full overflow-hidden relative">
       {/* Gradient background */}
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+      <div className="w-full h-full ">
         <div className="container h-full flex flex-col justify-center items-center md:items-start text-center md:text-left px-4 md:px-12 lg:px-24 xl:px-32 pt-32">
           {/* Text and button content */}
           <motion.h1
